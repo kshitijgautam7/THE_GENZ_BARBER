@@ -1,0 +1,46 @@
+buildscript {
+    ext.kotlin_version = '1.6.21'
+    ext.buildToolsVersion = "30.0.3"
+    ext.minSdkVersion = 21
+    ext.compileSdkVersion = 31
+    ext.targetSdkVersion = 31
+    ext.supportLibVersion = "28.0.0"
+
+    repositories {
+        google()
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.0.0'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath 'com.google.gms:google-services:4.3.10'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven {
+            url 'https://jitpack.io'
+        }
+    }
+}
+
+subprojects {
+    afterEvaluate {
+        android {
+            compileSdkVersion rootProject.ext.compileSdkVersion
+            buildToolsVersion rootProject.ext.buildToolsVersion
+            defaultConfig {
+                minSdkVersion rootProject.ext.minSdkVersion
+                targetSdkVersion rootProject.ext.targetSdkVersion
+            }
+        }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
