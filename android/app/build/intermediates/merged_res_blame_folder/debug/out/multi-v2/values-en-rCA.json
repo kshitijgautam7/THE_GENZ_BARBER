@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\KIIT\\Downloads\\Compressed\\flutter_barber_booking\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rCA\\values-en-rCA.xml",
+            "outputFile": "demi.god.flutter_barber_booking.app-mergeDebugResources-16:/values-en-rCA/values-en-rCA.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\KIIT\\.gradle\\caches\\transforms-3\\c55f66759fe74fa7c3c672eeb3fc6e37\\transformed\\browser-1.4.0\\res\\values-en-rCA\\values-en-rCA.xml",
+                    "source": "C:\\Users\\KIIT\\.gradle\\caches\\transforms-3\\dbb2766204652ff07f073ea544013746\\transformed\\browser-1.4.0\\res\\values-en-rCA\\values-en-rCA.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\KIIT\\.gradle\\caches\\transforms-3\\8c64f6488407f68fbeda3a3736eac585\\transformed\\core-1.6.0\\res\\values-en-rCA\\values-en-rCA.xml",
+                    "source": "C:\\Users\\KIIT\\.gradle\\caches\\transforms-3\\fc7721138a9c02ab5c537b5b76b4748b\\transformed\\core-1.6.0\\res\\values-en-rCA\\values-en-rCA.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
